@@ -1,0 +1,53 @@
+
+ul.highlight {
+    padding-left: 0;
+}
+
+.highlightMenu img {
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+li.highlightMenu {
+    list-style: none;
+    text-align: center;
+}
+
+.highlight {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#special img{
+    height: 500px;
+    border-radius: 30px;
+}
+
+#special {
+    text-align: center;
+}
+
+#linkflavor {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+#linkflavor a, #linkcontact a{
+    text-decoration: none;
+    color:  rgb(180, 168, 144);
+}
+
+#linkflavor a:hover, #linkcontact a:hover{
+    text-decoration: none;
+    color: rgb(97, 90, 75);
+}
+
+
+#special h2 {
+    color:rgb(97, 90, 75);
+}
+

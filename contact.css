@@ -1,0 +1,51 @@
+h3 {
+    padding-left: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    padding-left: 16px;
+    width: 19%;
+}
+
+th {
+    padding-left: 26%;
+    text-align: left;
+}
+
+
+#contact img{
+    height: 120px;
+    padding-right: 40px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(92, 11, 56);
+    background-color:  rgb(97, 90, 75);
+    width: 70%;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    color:white;
+}
+
+#contact p {
+    padding-left: 10px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: rgb(180, 168, 144);
+}
+
+#contact a:hover{
+    color: black;
+}
