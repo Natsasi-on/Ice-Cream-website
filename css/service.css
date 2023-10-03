@@ -1,0 +1,241 @@
+label {
+    color: #133854;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+input,
+select {
+    font-size: 24px;
+    font-family: inherit;
+    width: 450px;
+    height: 45px;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#petAge,
+#timeArrive,
+#timeLeave {
+    width: 150px;
+}
+
+
+#bigContainer {
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 20px;
+    align-items: start;
+    box-sizing: border-box;
+}
+
+.Container1 {
+    display: flex;
+    align-items: center;
+}
+
+.Container1 input {
+    width: 40px;
+    margin: 5px;
+}
+
+.Container1 label,
+.leftSide label {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+#mytemRadio {
+    grid-row: 1/6;
+    grid-column: 3;
+    width: 460px;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+
+#pet {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+.Container_col {
+    text-align: center;
+}
+
+.Container_col input,
+.leftSide input {
+    width: 40px;
+}
+
+.Container2 {
+    display: flex;
+    gap: 10px;
+}
+
+.dayNeedRow {
+    grid-row: 2/3;
+    grid-column: 1;
+}
+
+.Container {
+    grid-row: 3/4;
+    grid-column: 1;
+    display: flex;
+    gap: 40px;
+    clear: both;
+}
+
+
+.leftSide {
+    grid-column: 1;
+    grid-row: 4/5;
+    clear: both;
+}
+
+#ifChecked {
+    grid-column: 1;
+    grid-row: 5/6;
+}
+
+#ownerBox {
+    grid-column: 1;
+    grid-row: 6/7;
+}
+
+#emergBox {
+    grid-column: 2/4;
+    grid-row: 6/7;
+}
+
+#dayTimeBox {
+    grid-column: 1;
+    grid-row: 7/8;
+}
+
+#contactBox {
+    grid-column: 2/4;
+    grid-row: 7/8;
+}
+
+#cellPhoneBox {
+    grid-column: 1;
+    grid-row: 8/9;
+    align-self: start;
+}
+
+#emailBox {
+    grid-column: 1;
+    grid-row: 9/10;
+}
+
+#submitBox {
+    grid-column: 1;
+    grid-row: 10/11;
+}
+
+#myContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #133854;
+    align-items: center;
+}
+
+#myContainer img {
+    height: 50px;
+}
+
+#myContainer div {
+    margin: 0 25px 0 40px;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}
+
+.myspayed {
+    display: flex;
+}
+
+#submitBox input {
+    width: 200px;
+    height: 60px;
+    background-color: rgb(97, 90, 75);
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+#submitBox input:hover {
+    cursor: pointer;
+    background-color: rgb(144, 136, 120);
+    border: none;
+}
+
+
+label.error {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 1px;
+    position: absolute;
+}
+
+#ifChecked {
+    display: none;
+}
+
+.territorailBox {
+    display: none;
+}
+
+
+#territorailBox input,
+#territorailBox label {
+    margin-left: 70px;
+    width: 380px;
+}
+
+#extras {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.extraBox {
+    display: flex;
+    flex-direction: row;
+}
+
+#cusInfo {
+    grid-row: 3/4;
+}
+
+#customerInfo {
+    grid-row: 4/5;
+}
+
+#contactInfo {
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+#emailInfo {
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+#submitOrder {
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
+
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}

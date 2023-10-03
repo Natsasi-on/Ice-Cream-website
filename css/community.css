@@ -1,0 +1,38 @@
+section div img {
+    width: 550px;
+    border-radius: 40px;
+    padding: 20px;
+}
+
+img.myLeft {
+    float:left;
+}
+
+img.myRight {
+    float:right;
+    clear:both;
+}
+
+img.myLeft2 {
+    float:left;
+    clear:both;
+}
+h3.h3two, p.paraTwo {
+    padding-left: 20px;
+}
+h3.h3two {
+    clear:left;
+}
+
+h3.h3three {
+    clear:right;
+}
+
+h3 {
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+footer {
+    clear:both;
+}

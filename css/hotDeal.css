@@ -1,0 +1,41 @@
+#headBg {
+    background-image: url("../images/head_choc2.jpg");
+}
+
+#headText {
+    background-color: rgb(46, 27, 19, 0.7);
+}
+
+#navHead {
+    background-color: rgb(46, 27, 19);
+}
+
+h2 {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.menuHotDeal img {
+    height: 250px;
+    width: 350px;
+    border-radius: 60%;
+}
+
+ul.hotDeal {
+    padding-left: 0;
+}
+
+.hotDeal {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+li.menuHotDeal {
+    list-style: none;
+    text-align: center;
+}
+
+ul#navFooter {
+    background-color: rgb(46, 27, 19);
+}
