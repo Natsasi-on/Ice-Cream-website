@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Natsasion Srithiowat">
+    <meta name="email" content="natsasion.sri@gmail.com">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/service.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+    <title>Service</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navHead">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="hotDeal.html">HOT DEAL</a></li>
+                <li><a href="menu.html">OUR MENU</a></li>
+                <li><a href="service.html">SERVICES</a></li>
+                <li><a href="community.html">COMMUNITY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div id="headBg">
+            <div id="headText">
+                <h1>HAHA Ice Cream</h1>
+                <p>Let's try our menu</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Pet Care Service</h2>
+            <p>Don't worry if you need to leave your pet while enjoying your ice cream. We have a pet care service to
+                take care of your pet. Please fill out the form below, and your pet will be in good hands.</p>
+        </section>
+        <section id="petDaycare">
+            <h3>Request for pet daycare :</h3>
+            <form name="myForm" id="bigContainer" action="./register.html" method="get">
+                <div>
+                    <label for="petName">Name of Pet</label><br>
+                    <input type="text" id="petName" placeholder="Mr. Whiskers" name="petname"><br>
+                    <span class="alert" id="petNameError"></span>
+                </div>
+                <div>
+                    <label for="petAge">Age of Pet</label><br>
+                    <input type="number" id="petAge" placeholder="2" name="age"><br>
+                    <span class="alert" id="petAgeError"></span>
+                </div>
+                <div id="mytemRadio">
+                    <label>Temperament of Pet</label>
+                    <div class="Container1">
+                        <input type="radio" id="temperament_1" name="temperament" value="friendly">
+                        <label>Friendly</label>
+                    </div>
+                    <div class="Container1">
+                        <input type="radio" id="temperament_2" name="temperament" value="Sleepy">
+                        <label>Sleepy</label>
+                    </div>
+                    <div class="Container1">
+                        <input type="radio" id="temperament_3" name="temperament" value="Independent">
+                        <label>Independent</label>
+                    </div>
+                    <div class="Container1">
+                        <input type="radio" id="temperament_4" name="temperament" value="Terrirotial">
+                        <label>Terrirotial</label>
+                    </div>
+                    <div>
+                        <span id="petAgeError"></span>
+                    </div>
+                    <div class="territorailBox">
+                        <label for="territorial">Describe Territorial</label><br>
+                        <input type="text" id="territorial" name="territorial" placeholder="Tell us about Territorial">
+                    </div>
+
+                </div>
+                <div id="pet">
+
+                </div>
+                <div id="dayNeedRow">
+                    <label>Days Needed</label>
+                    <br><br>
+                    <div class="Container2">
+                        <div class="Container_col">
+                            <label for="mon">Mon</label><br>
+                            <input type="checkbox" id="mon" name="days" value="Mon" class="myDays">
+                        </div>
+                        <div class="Container_col">
+                            <label for="tue">Tue</label><br>
+                            <input type="checkbox" id="tue" name="days" value="Tue" class="myDays">
+                        </div>
+                        <div class="Container_col">
+                            <label for="wed">Wed</label><br>
+                            <input type="checkbox" id="wed" name="days" value="Wed" class="myDays">
+                        </div>
+                        <div class="Container_col">
+                            <label for="thu">Thu</label><br>
+                            <input type="checkbox" id="thu" name="days" value="Thu" class="myDays">
+                        </div>
+                        <div class="Container_col">
+                            <label for="fri">Fri</label><br>
+                            <input type="checkbox" id="fri" name="days" value="Fri" class="myDays">
+                        </div>
+                        <div class="Container_col">
+                            <label for="sat">Sat</label><br>
+                            <input type="checkbox" id="sat" name="days1" value="Sat">
+                        </div>
+                        <div class="Container_col">
+                            <label for="sun">Sun</label><br>
+                            <input type="checkbox" id="sun" name="days" value="Sun"><br>
+                        </div>
+                    </div>
+                    <span class="alert" id="daysError"></span>
+                </div>
+
+                <div class="Container">
+                    <div>
+                        <br><br>
+                        <label for="timeArrive">Time Arrive</label><br>
+                        <select name="timeArrive" id="timeArrive">
+                            <option value="">Select</option>
+                            <option value="600">6:00 AM</option>
+                            <option value="630">6:30 AM</option>
+                            <option value="700">7:00 AM</option>
+                            <option value="730">7:30 AM</option>
+                            <option value="800">8:00 AM</option>
+                            <option value="830">8:30 AM</option>
+                            <option value="900">9:00 AM</option>
+                            <option value="930">9:30 AM</option>
+                            <option value="1000">10:00 AM</option>
+                            <option value="1030">10:30 AM</option>
+                            <option value="1100">11:00 AM</option>
+                            <option value="1130">11:30 AM</option>
+                            <option value="1200">12:00 PM</option>
+                        </select>
+                        <br>
+                        <span class="alert" id="timeArriveError"></span>
+                    </div>
+                    <div>
+                        <br><br>
+                        <label for="timeLeave">Time Leave</label><br>
+                        <select name="timeLeave" id="timeLeave">
+                            <option value="">Select</option>
+                            <option value="1000">10:00 AM</option>
+                            <option value="1030">10:30 AM</option>
+                            <option value="1100">11:00 AM</option>
+                            <option value="1130">11:30 AM</option>
+                            <option value="1200">12:00 PM</option>
+                            <option value="1230">12:30 PM</option>
+                            <option value="1300">1:00 PM</option>
+                            <option value="1330">1:30 PM</option>
+                            <option value="1400">2:00 PM</option>
+                            <option value="1430">2:30 PM</option>
+                            <option value="1500">3:00 PM</option>
+                            <option value="1530">3:30 PM</option>
+                            <option value="1600">4:00 PM</option>
+                            <option value="1630">4:30 PM</option>
+                            <option value="1700">5:00 PM</option>
+                            <option value="1730">5:30 PM</option>
+                            <option value="1800">6:00 PM</option>
+                        </select>
+                        <br>
+                        <span class="alert" id="timeLeaveError"></span>
+                        <br><br>
+                    </div>
+                </div>
+                <div class="leftSide">
+                    <div class="myspayed">
+                        <input type="checkbox" id="spayed" name="spayed" value="spayed/Neu">
+                        <label for="spayed">Pet Spayed/Neutered</label><br>
+                    </div>
+                    <div class="myspayed">
+                        <input type="checkbox" id="diet" name="diet" value="specialDiet">
+                        <label for="diet">Special Diet</label><br>
+                    </div>
+                </div>
+                <div id="ifChecked">
+                    <label for="specialDiet" id="mylabel">Special Diet</label><br>
+                    <input type="text" id="specialDiet" name="specialDiet" placeholder="My pet like big fish">
+                </div>
+                <div id="ownerBox">
+                    <label for="owner">Owner's Name</label><br>
+                    <input type="text" id="owner" placeholder="Pet Owner" name="owner"><br>
+                    <span class="alert" id="ownerError"></span>
+                </div>
+                <div id="emergBox">
+                    <label for="emergContact">Emergency Contact Name</label><br>
+                    <input type="text" id="emergContact" placeholder="Pet Friend" name="emergContact"><br>
+                    <span class="alert" id="emergContactError"></span>
+                </div>
+                <div id="dayTimeBox">
+                    <label for="dayTimePhone">Daytime Phone</label><br>
+                    <input type="text" id="dayTimePhone" placeholder="(123) 456-7890" name="dayTimePhone"><br>
+                    <span class="alert" id="dayTimeError"></span>
+                </div>
+                <div id="contactBox">
+                    <label for="contactPhone">Contact Phone</label><br>
+                    <input type="text" id="contactPhone" placeholder="(123) 456-7890" name="contactPhone"><br>
+                    <span class="alert" id="contactPhoneError"></span>
+                </div>
+                <div id="cellPhoneBox">
+                    <label for="cellPhone">Cell Phone</label><br>
+                    <input type="text" id="cellPhone" placeholder="(123) 456-7890" name="cellPhone"><br>
+                    <span class="alert" id="cellPhoneError"></span>
+                </div>
+                <div id="emailBox">
+                    <label for="email">Contact Email</label><br>
+                    <input type="text" id="email" placeholder="petcare_hahaicecream@gmail.com" name="email"><br>
+                    <span class="alert" id="emailError"></span>
+                </div>
+                <div id="submitBox">
+                    <input type="submit" value="Submit">
+                    <br><br>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <ul id="navFooter">
+            <li class="navFootlogo">
+                <a href="./index.html"><img src="./images/icon_logo.png" alt="home"></a>
+            </li>
+            <li class="navFoot">
+                <a href="https://www.instagram.com/?hl=en"><img src="./images/icon_insta.png" alt="instagram"></a>
+            </li>
+            <li class="navFoot">
+                <a href="https://www.facebook.com/"><img src="./images/icon_face.png" alt="facebook"></a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./javascript/jquery-3.6.0.js"></script>
+    <script src="./javascript/jquery.validate.min.js"></script>
+    <script src="./javascript/register.js"></script>
+</body>
+
+</html>
